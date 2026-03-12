@@ -1,4 +1,4 @@
-# SkillBridge — AI-Powered Career Gap Analyser
+# SkillBridge — AI-Powered Career Gap Analyzer
 
 ![SkillBridge Banner](https://img.shields.io/badge/SkillBridge-AI%20Career%20Analyser-2dd4bf?style=for-the-badge&logo=bolt&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.8+-3b82f6?style=for-the-badge&logo=python&logoColor=white)
