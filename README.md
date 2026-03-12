@@ -171,8 +171,7 @@ python-dotenv
 
 **Angel Egwaoje**
 
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/angel-egwaoje-416927280/)
 
 ---
 
