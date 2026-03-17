@@ -677,7 +677,8 @@ async function runAnalysis(){
     fd.append('job_description',jd);fd.append('job_title',jt);
     if(cvMode==='up'&&cvFile)fd.append('cv_file',cvFile);
     else if(cvMode==='paste')fd.append('cv_text',document.getElementById('cv-txt').value);
-    const res=await fetch('http://localhost:5000/api/analyse',{method:'POST',body:fd});
+    const API=window.location.hostname==='localhost'?'http://localhost:5000':'';
+    const res=await fetch(API+'/api/analyse',{method:'POST',body:fd});
     const data=await res.json();
     if(!res.ok||data.error)throw new Error(data.error||'Server error');
     stopLoading();renderResults(data);

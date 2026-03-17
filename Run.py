@@ -1,7 +1,11 @@
 import os
+from dotenv import load_dotenv
 
-# Paste your Groq API key here
-os.environ['GROQ_API_KEY'] = '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'
+load_dotenv()
+
+if not os.environ.get('GROQ_API_KEY'):
+    print("\n⚠️  WARNING: GROQ_API_KEY not found.")
+    print("   Create a .env file with: GROQ_API_KEY=your-key-here\n")
 
 from app import app
 
